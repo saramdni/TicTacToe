@@ -1,0 +1,137 @@
+html {
+    background: url(./Img/Pattern.png), radial-gradient(50% 100% at 50% 0%, #FAC63C 0%, #FFB661 100%);
+    background-repeat: repeat, no-repeat;
+    height: 100%;
+}
+
+body {
+    margin: 24px 0px;
+}
+
+.Continer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #FAC63C solid 1px;
+    margin-bottom: 8px;
+    padding: 4px;
+    color: #FAC63C;
+}
+
+#Player1__counter,
+#Player2__counter {
+    color: white;
+    text-align: center;
+    padding: 0px;
+    background: none;
+    width: 80px;
+    border: none;
+}
+
+#turn__Player1 {
+    border: #FAC63C solid 1px;
+}
+
+.Primary__Button {
+    background: #FAC63C;
+    border: none;
+    width: 100%;
+    height: 40px;
+    color: #201F11;
+    cursor: pointer;
+}
+
+.Secondary__Button {
+    border: #FAC63C solid 1px;
+    background: none;
+    width: 100%;
+    height: 40px;
+    color: #FAC63C;
+    cursor: pointer;
+}
+
+.Brown__color {
+    color: #201F11;
+    text-align: center;
+}
+
+.Reset__Styles {
+    background: none;
+    border: none;
+}
+
+.Mian__logo {
+    display: block;
+    margin: 16px auto;
+    width: 88px;
+    filter: drop-shadow(0px 0px 8px #00000078);
+}
+
+.TicTacToe__Box {
+    width: 288px;
+    display: block;
+    margin: 0px auto;
+    background-color: #201F11;
+    padding: 32px 64px;
+    border-radius: 4px;
+    filter: drop-shadow(0px 0px 8px #00000099);
+}
+
+.Game__Button__Box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.PlayerNames__Header {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.PlayerName__Box {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.Game__Button {
+    background-color: #9F9976;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    font-size: 32px;
+    color: #201F11;
+}
+
+.PlayerName__Box input {
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+.PlayerName__Box button {
+    color: white;
+    cursor: pointer;
+    opacity: 50%;
+    font-size: 10px;
+    background: none;
+    border: none;
+    padding: 0px;
+    width: 40px;
+}
+
+.Action__button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    gap: 16px;
+}

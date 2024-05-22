@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <script src="./Script.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <img class="Mian__logo" src="./Img/Logo.png" alt="GameLogo">
+    <h1 class="Brown__color">Tic-Tac-Toe</h1>
+    <div class="TicTacToe__Box">
+        <div>
+            <div class="PlayerNames__Header">
+                <div id="turn__Player1" class="PlayerName__Box"><input id="PlayerName__1" type="text" value="PLAYER 1"
+                        disabled> X <button id="Edit__PlayerName1" onclick="EditPlayerName(1)">edit</button> </div>
+
+                <div id="turn__Player2" class="PlayerName__Box"><input id="PlayerName__2" type="text" value="PLAYER 2"
+                        disabled> O <button id="Edit__PlayerName2" onclick="EditPlayerName(2)">edit</button> </div>
+            </div>
+            <div class="Continer"> <input type="number" id="Player1__counter" value="0" disabled> VS <input type="number" id="Player2__counter" value="0" disabled> </div>
+            <div class="Game__Button__Box">
+                <button id="btn1" class="Game__Button Reset__Styles" onclick="BtnXorO(0);CheckWinner();"></button>
+                <button id="btn2" class="Game__Button Reset__Styles" onclick="BtnXorO(1);CheckWinner();"></button>
+                <button id="btn3" class="Game__Button Reset__Styles" onclick="BtnXorO(2);CheckWinner();"></button>
+                <button id="btn4" class="Game__Button Reset__Styles" onclick="BtnXorO(3);CheckWinner();"></button>
+                <button id="btn5" class="Game__Button Reset__Styles" onclick="BtnXorO(4);CheckWinner();"></button>
+                <button id="btn6" class="Game__Button Reset__Styles" onclick="BtnXorO(5);CheckWinner();"></button>
+                <button id="btn7" class="Game__Button Reset__Styles" onclick="BtnXorO(6);CheckWinner();"></button>
+                <button id="btn8" class="Game__Button Reset__Styles" onclick="BtnXorO(7);CheckWinner();"></button>
+                <button id="btn9" class="Game__Button Reset__Styles" onclick="BtnXorO(8);CheckWinner();"></button>
+            </div>
+        </div>
+        <div class="Action__button"> <button class="Secondary__Button" id="Restart__Game"
+                onclick="location.reload();">Restart</button> <button class="Primary__Button" id="Continue__Game"
+                onclick=" Continue()">Continue</button> </div>
+    </div>
+</body>
+
+</html>
